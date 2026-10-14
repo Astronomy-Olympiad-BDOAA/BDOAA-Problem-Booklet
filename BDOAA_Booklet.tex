@@ -1,0 +1,496 @@
+
+\documentclass[11pt,a5paper]{article}
+
+% ==========================================
+% 1. MATHEMATICS AND LANGUAGE
+% ==========================================
+
+\usepackage{amsfonts,amssymb,amsmath}
+
+\usepackage[
+banglamainfont=Kalpurush,
+banglattfont=Siyam Rupali
+]{latexbanglapatch}
+
+\usepackage{fontspec}
+\usepackage{polyglossia}
+
+% ==========================================
+% 2. PACKAGES
+% ==========================================
+
+\usepackage[shortlabels]{enumitem}
+
+\usepackage[
+paperwidth=148mm,
+paperheight=210mm,
+top=18mm,
+bottom=17mm,
+inner=17mm,
+outer=14mm,
+headheight=30pt,
+headsep=7mm,
+footskip=8mm
+]{geometry}
+
+\usepackage{graphicx}
+\usepackage{fancyhdr}
+\usepackage{float}
+\usepackage{caption}
+\usepackage[super]{nth}
+\usepackage{xcolor}
+\usepackage{etoolbox}
+\usepackage{mathabx}
+\usepackage{ifsym}
+\usepackage{siunitx}
+\usepackage{wrapfig}
+\usepackage{multicol}
+\usepackage{tcolorbox}
+\usepackage{bm}
+\usepackage{lastpage}
+\usepackage{tikz}
+\usepackage{adjustbox}
+
+\tcbuselibrary{hooks,breakable,skins}
+\usetikzlibrary{calc}
+
+\usepackage[hidelinks]{hyperref}
+
+% ==========================================
+% 3. BOOKLET INFORMATION
+% ==========================================
+
+\newcommand{\BookTitle}{BDOAA Problem Booklet}
+\newcommand{\BookYears}{2018--2026}
+
+\newcommand{\OlympiadName}{%
+	Bangladesh Olympiad on Astronomy and Astrophysics%
+}
+
+\newcommand{\PublisherName}{%
+	Bangladesh Olympiad on Astronomy and Astrophysics Committee%
+}
+
+\newcommand{\PublicationYear}{2026}
+\newcommand{\EditionName}{First Edition}
+
+\newcommand{\ExamHeader}{%
+	National Round -- BDOAA 2026%
+}
+
+% ==========================================
+% 4. GRAPHICS
+% ==========================================
+
+\graphicspath{{./images/}}
+
+% Change the filename to replace the
+% central photograph on the cover.
+
+\newcommand{\CoverImageFile}{cover-image.jpg}
+
+% Main organizational logo
+
+\newcommand{\BDOAALogo}[1]{%
+	\includegraphics[width=#1]{bdoaa_logo.png}%
+}
+
+% ==========================================
+% 5. COVER COLOURS
+% ==========================================
+
+\definecolor{covermain}{HTML}{F15B53}
+\definecolor{coveraccent}{HTML}{FCC860}
+
+% Darker version of the main colour
+\colorlet{coverdark}{covermain!55!black}
+
+% Horizontal title band
+\definecolor{coverband}{HTML}{1E1B1B}
+
+% ==========================================
+% 6. EDITABLE COVER TEXT
+% ==========================================
+
+\newcommand{\CoverBookletText}{Problem Booklet}
+\newcommand{\CoverYearText}{2018--2026}
+
+\newcommand{\CoverMainTitle}{%
+	Bangladesh Olympiad on Astronomy and Astrophysics%
+}
+
+\newcommand{\CoverOrgText}{%
+	Bangladesh Olympiad\\
+	on Astronomy and\\
+	Astrophysics Committee%
+}
+
+\newcommand{\CoverPlaceYear}{Bangladesh, 2026}
+
+% ==========================================
+% 7. GENERAL TYPOGRAPHY
+% ==========================================
+
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{0.35em}
+
+\setcounter{secnumdepth}{2}
+\setcounter{tocdepth}{2}
+
+% ==========================================
+% 8. HEADER AND FOOTER
+% ==========================================
+
+\fancypagestyle{bdoaa}{%
+	
+	\fancyhf{}
+	
+	\fancyhead[L]{%
+		\IfFileExists{images/logo.png}{%
+			\includegraphics[
+			width=1.5cm,
+			height=0.65cm,
+			keepaspectratio
+			]{logo.png}%
+		}{}%
+	}
+	
+	\fancyhead[C]{%
+		\footnotesize
+		\textsc{\ExamHeader}
+	}
+	
+	\fancyhead[R]{%
+		\footnotesize
+		Page \thepage\ of \pageref{LastPage}
+	}
+	
+	\renewcommand{\headrulewidth}{0.4pt}
+	\renewcommand{\footrulewidth}{0pt}
+}
+
+% ==========================================
+% DOCUMENT BEGINS
+% ==========================================
+
+\begin{document}
+	
+	% ==========================================
+	% PAGE 1 — TIKZ FRONT COVER
+	% ==========================================
+	
+	\begin{titlepage}
+		\thispagestyle{empty}
+		
+		\begin{tikzpicture}[remember picture,overlay]
+			
+			% ------------------------------------------
+			% FULL-PAGE BACKGROUND
+			% ------------------------------------------
+			
+			\fill[covermain]
+			(current page.south west)
+			rectangle
+			(current page.north east);
+			
+			% ------------------------------------------
+			% RIGHT DARK PANEL
+			% ------------------------------------------
+			
+			\fill[coverdark]
+			($(current page.north west)
+			+(0.64\paperwidth,0)$)
+			rectangle
+			(current page.south east);
+			
+			% ------------------------------------------
+			% VERTICAL ACCENT STRIP
+			% ------------------------------------------
+			
+			\fill[coveraccent]
+			($(current page.north west)
+			+(0.615\paperwidth,0)$)
+			rectangle
+			($(current page.south west)
+			+(0.64\paperwidth,0)$);
+			
+			% ------------------------------------------
+			% UPPER-RIGHT BOOKLET LABEL
+			% ------------------------------------------
+			
+			\node[
+			anchor=north west,
+			text=white,
+			align=left,
+			inner sep=0pt,
+			text width=0.30\paperwidth
+			] at
+			($(current page.north west)
+			+(0.665\paperwidth,-0.165\paperheight)$)
+			{%
+				\sffamily\bfseries
+				\fontsize{12}{14}\selectfont
+				\CoverBookletText\\[2pt]
+				\CoverYearText
+			};
+			
+			% ------------------------------------------
+			% HORIZONTAL TITLE BAND
+			% ------------------------------------------
+			
+			\fill[coverband]
+			($(current page.north west)
+			+(0,-0.265\paperheight)$)
+			rectangle
+			($(current page.north west)
+			+(0.915\paperwidth,-0.327\paperheight)$);
+			
+			% Main title
+			\node[
+			anchor=center,
+			text=white,
+			inner sep=0pt
+			] at
+			($(current page.north west)
+			+(0.4575\paperwidth,-0.296\paperheight)$)
+			{%
+				\adjustbox{max width=0.85\paperwidth}{%
+					\sffamily\bfseries
+					\fontsize{17}{20}\selectfont
+					\CoverMainTitle
+				}%
+			};
+			
+			% ------------------------------------------
+			% CENTRAL ASTRONOMICAL PHOTOGRAPH
+			% ------------------------------------------
+			
+			% Photograph area:
+			% Width  = 78% of page width
+			% Height = 36.5% of page height
+			%
+			% Image aspect ratio is preserved.
+			% Excess image content is cropped.
+			
+
+\begin{scope}
+	
+	\clip
+	($(current page.north west)
+	+(0.18\paperwidth,-0.365\paperheight)$)
+	rectangle
+	($(current page.north west)
+	+(0.96\paperwidth,-0.730\paperheight)$);
+	
+	\node[
+	anchor=center,
+	inner sep=0pt
+	] at
+	($(current page.north west)
+	+(0.57\paperwidth,-0.5475\paperheight)$)
+	{%
+		\includegraphics[
+		width=0.78\paperwidth
+		]{cover00}
+	};
+	
+\end{scope}
+
+			
+			% ------------------------------------------
+			% LOWER-RIGHT ORGANIZER INFORMATION
+			% ------------------------------------------
+			
+			\node[
+			anchor=north west,
+			text=white,
+			align=left,
+			inner sep=0pt,
+			text width=0.30\paperwidth
+			] at
+			($(current page.north west)
+			+(0.665\paperwidth,-0.805\paperheight)$)
+			{%
+				\sffamily\bfseries
+				\fontsize{9.5}{12}\selectfont
+				
+				\CoverOrgText
+				
+				\par\vspace{7mm}
+				
+				\CoverPlaceYear
+			};
+			
+		\end{tikzpicture}
+		
+		\null
+	\end{titlepage}
+	
+	% ==========================================
+	% PAGE 2 — INNER TITLE PAGE
+	% ==========================================
+	
+	\thispagestyle{empty}
+	
+	\begin{center}
+		
+		\vspace*{2.3cm}
+		
+		{\fontsize{22}{25}\selectfont
+			\textsc{Bangladesh Olympiad\\[2pt]
+			on Astronomy and Astrophysics}
+			\par}
+		
+		\vspace{0.75cm}
+		
+		{\fontsize{17}{22}\selectfont
+			Problem Booklet
+			\par}
+		
+		\vspace{0.1cm}
+		
+		{\fontsize{15}{19}\selectfont
+			2018--2026
+			\par}
+		
+		\vspace{1.2cm}
+		
+		{\normalsize
+			Compiled and edited by
+			\par}
+		
+		\vspace{0.3cm}
+		
+		{\large
+			BDOAA Academic Team
+			\par}
+		
+		
+		\vfill
+		
+		% BDOAA logo near the bottom
+		
+		\BDOAALogo{0.36\textwidth}
+		
+		\vspace{1cm}
+		
+	\end{center}
+	
+	\clearpage
+	
+	% ==========================================
+	% PAGE 3 — PUBLICATION AND CREDITS
+	% ==========================================
+	
+	\thispagestyle{empty}
+	
+	
+	\begin{flushleft}
+		
+		\small
+		
+		\textbf{BDOAA Problem Booklet 2018--2026}
+		
+		\vspace{0.35cm}
+		
+		\textbf{Compilation and editing}\\
+		Fahim Rajit Hossain Shwadhin\\
+		Names to be Added
+		
+		\vspace{0.35cm}
+		
+		\textbf{Published by}\\
+		Bangladesh Olympiad on Astronomy
+		and Astrophysics
+		
+		\vspace{0.35cm}
+		
+		\textbf{Edition}\\
+		First Edition, 2026
+		
+		\vspace{0.35cm}
+		
+		\textbf{Typesetting}\\
+		\LaTeX
+		
+		\vspace{0.35cm}
+		
+		\textbf{Copyright and licensing: BDOAA}
+		
+		\vspace{0.35cm}
+		
+		\textbf{Repository}
+		
+		{\footnotesize
+			\url{https://github.com/Astronomy-Olympiad-BDOAA/BDOAA-Problem-Booklet}
+			\par}
+		
+		\vspace{0.35cm}
+		
+		This publication is not for sale.
+		
+	\end{flushleft}
+	
+	\clearpage
+	
+	% ==========================================
+	% PAGE 4 — PREFACE
+	% ==========================================
+	
+	\thispagestyle{plain}
+	
+	\section*{Preface}
+	\addcontentsline{toc}{section}{Preface}
+	
+	The Bangladesh Olympiad on Astronomy and
+	Astrophysics (BDOAA) Problem Booklet is
+	a compilation of problems from the
+	Regional and National rounds of the
+	Olympiad, covering the years 2018--2026.
+	
+	The booklet aims to preserve problems from
+	previous editions of the Olympiad and
+	make them accessible to students,
+	educators, and astronomy enthusiasts.
+	
+	\vspace{0.5cm}
+	
+	বাংলাদেশ জ্যোতির্বিজ্ঞান অলিম্পিয়াডের
+	সমস্যাসংকলনে স্বাগতম।
+	
+	\clearpage
+	
+	% ==========================================
+	% TABLE OF CONTENTS
+	% ==========================================
+	
+	\thispagestyle{plain}
+	
+	\tableofcontents
+	
+	\clearpage
+	
+	% ==========================================
+	% PROBLEM CHAPTERS
+	% ==========================================
+	
+	\pagenumbering{arabic}
+	\pagestyle{bdoaa}
+	
+	\section{Positional Astronomy}
+	
+	% Problems will be added here.
+	
+	\clearpage
+	
+	\section{Celestial Mechanics}
+	
+	% Problems will be added here.
+	
+	\clearpage
+	
+	\section{Stellar Astrophysics}
+	
+	% Problems will be added here.
+	
+\end{document}

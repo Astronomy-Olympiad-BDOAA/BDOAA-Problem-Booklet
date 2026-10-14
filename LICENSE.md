@@ -1,35 +1,27 @@
-# Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+# BDOAA Problem Booklet — Copyright and Permissions
 
-Unless otherwise stated, the original material in the **BDOAA Problem Booklet** repository is licensed under the **Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0)**.
+**Copyright © 2026 Bangladesh Olympiad on Astronomy and Astrophysics (BDOAA). All rights reserved.**
 
-Copyright © Bangladesh Olympiad on Astronomy and Astrophysics (BDOAA) and contributors.
+This repository contains the *BDOAA Problem Booklet*, a compilation of problems from the Regional and National rounds of the Bangladesh Olympiad on Astronomy and Astrophysics.
+
+## Ownership
+
+The original BDOAA Olympiad problem statements, official solutions, and other original BDOAA materials in this publication are owned by the Bangladesh Olympiad on Astronomy and Astrophysics (BDOAA).
+
+This repository and its compiled PDF are publicly accessible for reading and reference. Their publication on GitHub does **not** place the contents in the public domain or grant a Creative Commons or other general reuse licence.
+
+## Permissions
+
+All rights are reserved. Except where applicable law permits otherwise, prior written permission from BDOAA is required to reproduce, redistribute, republish, translate, adapt, or commercially exploit the copyrighted contents, including distributing modified versions of the booklet or substantial collections of its problems.
+
+Readers may view the publicly available booklet and cite it with appropriate attribution. Citation does not itself grant permission to reproduce protected material.
+
+For permissions, contact the BDOAA organizers through their official channels or the repository maintainers.
+
+## Third-party material and contributions
+
+Third-party photographs, figures, quotations, and other externally sourced material remain subject to their respective owners' rights and are not claimed as BDOAA property. Contributor acknowledgements do not alter the ownership of original BDOAA problem materials.
+
+This notice applies to the booklet content. Any separately identified files with explicit individual licence terms remain subject to those terms.
 
 Repository: https://github.com/Astronomy-Olympiad-BDOAA/BDOAA-Problem-Booklet
-
-## You are free to
-
-**Share** — copy and redistribute the material in any medium or format.
-
-**Adapt** — remix, transform, and build upon the material.
-
-The licensor cannot revoke these freedoms as long as you follow the license terms.
-
-## Under the following terms
-
-**Attribution** — You must give appropriate credit to the **BDOAA Problem Booklet**, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests BDOAA or the contributors endorse you or your use.
-
-**NonCommercial** — You may not use the material for commercial purposes.
-
-**ShareAlike** — If you remix, transform, or build upon the material, you must distribute your contributions under the same license as the original.
-
-**No additional restrictions** — You may not apply legal terms or technological measures that legally restrict others from doing anything the license permits.
-
-## Third-party material
-
-This repository may contain problem statements, figures, photographs, logos, quotations, or other material whose rights are held by third parties or which is otherwise subject to separate terms.
-
-Such material is **not automatically relicensed** under CC BY-NC-SA 4.0. Where separate attribution, copyright, or licensing information is provided, those terms take precedence for that material.
-
-For the full legal code, see:
-
-https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode

@@ -7,14 +7,23 @@
   <a href="https://github.com/Astronomy-Olympiad-BDOAA/BDOAA-Problem-Booklet/network/members">
     <img src="https://img.shields.io/github/forks/Astronomy-Olympiad-BDOAA/BDOAA-Problem-Booklet?style=for-the-badge&logo=github&label=Forks" alt="GitHub Forks">
   </a>
-  <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/">
-    <img src="https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg?style=for-the-badge" alt="CC BY-NC-SA 4.0">
+  <a href="LICENSE.md">
+    <img src="https://img.shields.io/badge/License-All%20Rights%20Reserved-F15B53?style=for-the-badge" alt="BDOAA — All Rights Reserved">
   </a>
 </p>
 
 <p align="center">
   <em>A growing archive of Bangladesh Olympiad on Astronomy and Astrophysics problems for students, trainers, and educators.</em>
 </p>
+
+
+<p align="center">
+  <a href="https://raw.githubusercontent.com/Astronomy-Olympiad-BDOAA/BDOAA-Problem-Booklet/main/BDOAA_Booklet.pdf" target="_blank">
+    <img src="https://img.shields.io/badge/Open%20Latest%20PDF-F15B53?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Open Latest PDF" />
+  </a>
+</p>
+
+The **Open Latest PDF** button opens the current booklet PDF directly. The booklet is a work in progress; the PDF may change before the first formal release.
 
 ---
 
@@ -103,8 +112,12 @@ Until a formal edition is released, please cite the repository as:
 }
 ```
 
-## 📜 License
+## 📜 Copyright and permissions
 
-Unless otherwise stated, original material in this repository is licensed under the [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
+**Copyright © Bangladesh Olympiad on Astronomy and Astrophysics (BDOAA). All rights reserved.**
 
-Third-party material, externally sourced figures, and material carrying a separate copyright or license remain subject to their respective terms.
+BDOAA owns the original Olympiad problems and related official material compiled in this booklet. Publication of this repository and its PDF on GitHub does not grant a Creative Commons licence or general permission to copy, adapt, redistribute, translate, or republish the material. Please seek written permission from BDOAA for uses beyond those allowed by applicable law.
+
+Individual contributors are acknowledged for their editorial and technical work; that acknowledgement does not alter the copyright ownership of BDOAA's original problems. Any externally sourced photographs, figures, or other third-party content remain subject to the respective rights holders' terms.
+
+See [LICENSE.md](LICENSE.md) for the full repository rights notice.

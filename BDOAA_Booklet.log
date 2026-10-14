@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.2) (preloaded format=xelatex 2026.4.16)  15 OCT 2026 04:15
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.2) (preloaded format=xelatex 2026.4.16)  15 OCT 2026 04:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1783,14 +1783,11 @@ File: ot1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 
 ]
 LaTeX Font Info:    Font shape `TU/bmfont/m/n' will be
-(Font)              scaled to size 13.6705pt on input line 482.
+(Font)              scaled to size 13.6705pt on input line 478.
 LaTeX Font Info:    Font shape `TU/bmfont/b/n' will be
-(Font)              scaled to size 13.6705pt on input line 482.
+(Font)              scaled to size 13.6705pt on input line 478.
 
-[1
-
-
-] (BDOAA_Booklet.toc
+(BDOAA_Booklet.toc
 
 Package polyglossia Warning: Unknown Bengali numeral `Bengali'
 
@@ -1806,16 +1803,19 @@ LaTeX Font Info:    Font shape `TU/bmfont/b/n' will be
 \tf@toc=\write5
 \openout5 = `BDOAA_Booklet.toc'.
 
- [2
+ [1
+
+
+] [1
 
 ]
 LaTeX Font Info:    Font shape `TU/bmfont/m/it' will be
-(Font)              scaled to size 9.49341pt on input line 524.
- [1
-
-] [2
+(Font)              scaled to size 9.49341pt on input line 532.
+ [2
 
 ] [3
+
+] [4
 
 ]
 
@@ -1835,11 +1835,8 @@ L3 programming layer <2020/03/25>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
 Package rerunfilecheck Info: File `BDOAA_Booklet.out' has not changed.
-(rerunfilecheck)             Checksum: B6BCC22B62DF98682810F178E3B57378;519.
+(rerunfilecheck)             Checksum: 52AF7DC98494F61B04CDF4142FD5E3AD;545.
  ) 
 Here is how much of TeX's memory you used:
  37003 strings out of 402807

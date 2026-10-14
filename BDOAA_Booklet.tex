@@ -364,8 +364,8 @@ footskip=8mm
 		
 		\vspace*{2.3cm}
 		
-		{\fontsize{22}{25}\selectfont
-			\textsc{Bangladesh Olympiad\\[2pt]
+		{\fontsize{22}{22}\selectfont
+			\textsc{Bangladesh Olympiad\\
 				on Astronomy and Astrophysics}
 			\par}
 		
@@ -387,7 +387,7 @@ footskip=8mm
 			Compiled and edited by
 			\par}
 		
-		\vspace{0.3cm}
+		\vspace{0.1cm}
 		
 		{\large
 			BDOAA Academic Team
@@ -461,6 +461,8 @@ footskip=8mm
 	
 	\clearpage
 
+
+
 % ==========================================
 % FRONT MATTER — NO PAGE NUMBERING
 % ==========================================
@@ -470,29 +472,43 @@ footskip=8mm
 \pagenumbering{gobble}
 
 % ==========================================
-% PREFACE — STANDALONE FRONT MATTER
+% TABLE OF CONTENTS
 % ==========================================
 
-% Include Preface in the contents without
-% displaying a page number beside it.
-\addcontentsline{toc}{section}{Preface}
+\tableofcontents
+\clearpage
 
+% ==========================================
+% INTRODUCTION
+% ==========================================
+
+% Start normal page numbering
+\pagenumbering{arabic}
+
+% Suppress running header on this page
+\thispagestyle{empty}
+
+% Create a unique hyperlink destination
+\phantomsection
+\addcontentsline{toc}{section}{Introduction}
+
+% Standalone heading
 \begin{center}
-	\vspace*{1.0cm}
-	{\Large\bfseries Preface\par}
+	\vspace*{1cm}
+	{\Large\bfseries Introduction\par}
 \end{center}
 
 \vspace{0.8cm}
 
 The Bangladesh Olympiad on Astronomy and
-Astrophysics (BDOAA) Problem Booklet is
-a compilation of problems from the
-Regional and National rounds of the
-Olympiad, covering the years 2018--2026.
+Astrophysics (BDOAA) Problem Booklet is a
+compilation of problems from the Regional
+and National rounds of the Olympiad,
+covering the years 2018--2026.
 
-The booklet aims to preserve problems from
-previous editions of the Olympiad and
-make them accessible to students,
+The booklet aims to preserve problems
+from previous editions of the Olympiad
+and make them accessible to students,
 educators, and astronomy enthusiasts.
 
 \vspace{0.5cm}
@@ -501,36 +517,29 @@ educators, and astronomy enthusiasts.
 সমস্যাসংকলনে স্বাগতম।
 
 \clearpage
-	
-	% ==========================================
-	% TABLE OF CONTENTS — NO FOLIO
-	% ==========================================
-	
-	\thispagestyle{empty}
-	\tableofcontents
-	\clearpage
-	
-	% ==========================================
-	% PROBLEM CHAPTERS — START PAGE 1
-	% ==========================================
-	
-\pagenumbering{arabic}
+
+% ==========================================
+% MAIN PROBLEM CHAPTERS
+% ==========================================
+
 \pagestyle{bdoaa}
-	
-	\section{Positional Astronomy}
-	
-	% Problems will be added here.
-	
-	\clearpage
-	
-	\section{Celestial Mechanics}
-	
-	% Problems will be added here.
-	
-	\clearpage
-	
-	\section{Stellar Astrophysics}
-	
-	% Problems will be added here.
+
+
+\section{Positional Astronomy}
+
+% Problems here
+
+\clearpage
+
+\section{Celestial Mechanics}
+
+% Problems here
+
+\clearpage
+
+\section{Stellar Astrophysics}
+
+% Problems here
+
 	
 \end{document}

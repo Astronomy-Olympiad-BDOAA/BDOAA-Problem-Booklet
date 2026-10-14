@@ -1,5 +1,6 @@
 
-\documentclass[11pt,a5paper]{article}
+
+\documentclass[11pt,a5paper,twoside]{article}
 
 % ==========================================
 % 1. MATHEMATICS AND LANGUAGE
@@ -50,9 +51,21 @@ footskip=8mm
 \usepackage{lastpage}
 \usepackage{tikz}
 \usepackage{adjustbox}
+\usepackage{tocloft}
 
 \tcbuselibrary{hooks,breakable,skins}
 \usetikzlibrary{calc}
+
+% Compact table of contents for A5
+\renewcommand{\cfttoctitlefont}{\Large\bfseries}
+\renewcommand{\cftaftertoctitle}{\par\vspace{0.4em}}
+\renewcommand{\cftsecfont}{\small\normalfont}
+\renewcommand{\cftsecpagefont}{\small\normalfont}
+\renewcommand{\cftsubsecfont}{\footnotesize\normalfont}
+\renewcommand{\cftsubsecpagefont}{\footnotesize\normalfont}
+\setlength{\cftbeforesecskip}{3pt}
+\setlength{\cftbeforesubsecskip}{1pt}
+\setlength{\cftsecnumwidth}{2.0em}
 
 \usepackage[hidelinks]{hyperref}
 
@@ -74,23 +87,13 @@ footskip=8mm
 \newcommand{\PublicationYear}{2026}
 \newcommand{\EditionName}{First Edition}
 
-\newcommand{\ExamHeader}{%
-	National Round -- BDOAA 2026%
-}
-
 % ==========================================
 % 4. GRAPHICS
 % ==========================================
 
 \graphicspath{{./images/}}
 
-% Change the filename to replace the
-% central photograph on the cover.
-
-\newcommand{\CoverImageFile}{cover-image.jpg}
-
 % Main organizational logo
-
 \newcommand{\BDOAALogo}[1]{%
 	\includegraphics[width=#1]{bdoaa_logo.png}%
 }
@@ -141,31 +144,50 @@ footskip=8mm
 % 8. HEADER AND FOOTER
 % ==========================================
 
+% Automatically use the current section
+% as the chapter title in the running header.
+%
+% Since the document uses the article class,
+% sections function as chapters.
+
+\renewcommand{\sectionmark}[1]{%
+	\markboth{#1}{}%
+}
+
 \fancypagestyle{bdoaa}{%
 	
+	% Clear all header and footer fields
 	\fancyhf{}
 	
-	\fancyhead[L]{%
-		\IfFileExists{images/logo.png}{%
-			\includegraphics[
-			width=1.5cm,
-			height=0.65cm,
-			keepaspectratio
-			]{logo.png}%
-		}{}%
+	% --------------------------------------
+	% EVEN PAGES — LEFT-HAND PAGES
+	% Page number | Chapter name
+	% --------------------------------------
+	
+	\fancyhead[LE]{%
+		\small
+		\normalfont\bfseries\thepage
+		\hspace{1.5em}%
+		\normalfont\itshape\nouppercase{\leftmark}%
 	}
 	
-	\fancyhead[C]{%
-		\footnotesize
-		\textsc{\ExamHeader}
+	% --------------------------------------
+	% ODD PAGES — RIGHT-HAND PAGES
+	% Chapter name | Page number
+	% --------------------------------------
+	
+	\fancyhead[RO]{%
+		\small
+		\normalfont\itshape\nouppercase{\leftmark}%
+		\hspace{1.5em}%
+		\normalfont\bfseries\thepage
 	}
 	
-	\fancyhead[R]{%
-		\footnotesize
-		Page \thepage\ of \pageref{LastPage}
-	}
+	% --------------------------------------
+	% NO HEADER OR FOOTER RULES
+	% --------------------------------------
 	
-	\renewcommand{\headrulewidth}{0.4pt}
+	\renewcommand{\headrulewidth}{0pt}
 	\renewcommand{\footrulewidth}{0pt}
 }
 
@@ -174,6 +196,12 @@ footskip=8mm
 % ==========================================
 
 \begin{document}
+	
+	% Suppress folios on all front-matter pages.
+	% Do not create PDF page anchors until the main numbered text.
+	\pagenumbering{gobble}
+	\pagestyle{empty}
+	\hypersetup{pageanchor=false}
 	
 	% ==========================================
 	% PAGE 1 — TIKZ FRONT COVER
@@ -272,30 +300,30 @@ footskip=8mm
 			% Image aspect ratio is preserved.
 			% Excess image content is cropped.
 			
-
-\begin{scope}
-	
-	\clip
-	($(current page.north west)
-	+(0.18\paperwidth,-0.365\paperheight)$)
-	rectangle
-	($(current page.north west)
-	+(0.96\paperwidth,-0.730\paperheight)$);
-	
-	\node[
-	anchor=center,
-	inner sep=0pt
-	] at
-	($(current page.north west)
-	+(0.57\paperwidth,-0.5475\paperheight)$)
-	{%
-		\includegraphics[
-		width=0.78\paperwidth
-		]{cover00}
-	};
-	
-\end{scope}
-
+			
+			\begin{scope}
+				
+				\clip
+				($(current page.north west)
+				+(0.18\paperwidth,-0.365\paperheight)$)
+				rectangle
+				($(current page.north west)
+				+(0.96\paperwidth,-0.730\paperheight)$);
+				
+				\node[
+				anchor=center,
+				inner sep=0pt
+				] at
+				($(current page.north west)
+				+(0.57\paperwidth,-0.5475\paperheight)$)
+				{%
+					\includegraphics[
+					width=0.78\paperwidth
+					]{cover00}
+				};
+				
+			\end{scope}
+			
 			
 			% ------------------------------------------
 			% LOWER-RIGHT ORGANIZER INFORMATION
@@ -338,7 +366,7 @@ footskip=8mm
 		
 		{\fontsize{22}{25}\selectfont
 			\textsc{Bangladesh Olympiad\\[2pt]
-			on Astronomy and Astrophysics}
+				on Astronomy and Astrophysics}
 			\par}
 		
 		\vspace{0.75cm}
@@ -432,50 +460,62 @@ footskip=8mm
 	\end{flushleft}
 	
 	\clearpage
+
+% ==========================================
+% FRONT MATTER — NO PAGE NUMBERING
+% ==========================================
+
+\clearpage
+\pagestyle{empty}
+\pagenumbering{gobble}
+
+% ==========================================
+% PREFACE — STANDALONE FRONT MATTER
+% ==========================================
+
+% Include Preface in the contents without
+% displaying a page number beside it.
+\addcontentsline{toc}{section}{Preface}
+
+\begin{center}
+	\vspace*{1.0cm}
+	{\Large\bfseries Preface\par}
+\end{center}
+
+\vspace{0.8cm}
+
+The Bangladesh Olympiad on Astronomy and
+Astrophysics (BDOAA) Problem Booklet is
+a compilation of problems from the
+Regional and National rounds of the
+Olympiad, covering the years 2018--2026.
+
+The booklet aims to preserve problems from
+previous editions of the Olympiad and
+make them accessible to students,
+educators, and astronomy enthusiasts.
+
+\vspace{0.5cm}
+
+বাংলাদেশ জ্যোতির্বিজ্ঞান অলিম্পিয়াডের
+সমস্যাসংকলনে স্বাগতম।
+
+\clearpage
 	
 	% ==========================================
-	% PAGE 4 — PREFACE
+	% TABLE OF CONTENTS — NO FOLIO
 	% ==========================================
 	
-	\thispagestyle{plain}
-	
-	\section*{Preface}
-	\addcontentsline{toc}{section}{Preface}
-	
-	The Bangladesh Olympiad on Astronomy and
-	Astrophysics (BDOAA) Problem Booklet is
-	a compilation of problems from the
-	Regional and National rounds of the
-	Olympiad, covering the years 2018--2026.
-	
-	The booklet aims to preserve problems from
-	previous editions of the Olympiad and
-	make them accessible to students,
-	educators, and astronomy enthusiasts.
-	
-	\vspace{0.5cm}
-	
-	বাংলাদেশ জ্যোতির্বিজ্ঞান অলিম্পিয়াডের
-	সমস্যাসংকলনে স্বাগতম।
-	
-	\clearpage
-	
-	% ==========================================
-	% TABLE OF CONTENTS
-	% ==========================================
-	
-	\thispagestyle{plain}
-	
+	\thispagestyle{empty}
 	\tableofcontents
-	
 	\clearpage
 	
 	% ==========================================
-	% PROBLEM CHAPTERS
+	% PROBLEM CHAPTERS — START PAGE 1
 	% ==========================================
 	
-	\pagenumbering{arabic}
-	\pagestyle{bdoaa}
+\pagenumbering{arabic}
+\pagestyle{bdoaa}
 	
 	\section{Positional Astronomy}
 	

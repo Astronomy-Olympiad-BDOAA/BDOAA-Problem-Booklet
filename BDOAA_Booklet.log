@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.2) (preloaded format=xelatex 2026.4.16)  15 OCT 2026 02:58
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.2) (preloaded format=xelatex 2026.4.16)  15 OCT 2026 04:15
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1438,6 +1438,42 @@ Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
 \@vwid@roff=\dimen332
 )
 ==> First Aid for varwidth.sty applied!
+) (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/tocloft\tocloft.sty
+Package: tocloft 2026-09-12 v3.0c parameterised ToC, etc., typesetting
+Package tocloft Info: The document has section divisions on input line 64.
+\cftparskip=\skip82
+\cftbeforetoctitleskip=\skip83
+\cftaftertoctitleskip=\skip84
+\cftbeforepartskip=\skip85
+\cftpartnumwidth=\skip86
+\cftpartindent=\skip87
+\cftbeforesecskip=\skip88
+\cftsecindent=\skip89
+\cftsecnumwidth=\skip90
+\cftbeforesubsecskip=\skip91
+\cftsubsecindent=\skip92
+\cftsubsecnumwidth=\skip93
+\cftbeforesubsubsecskip=\skip94
+\cftsubsubsecindent=\skip95
+\cftsubsubsecnumwidth=\skip96
+\cftbeforeparaskip=\skip97
+\cftparaindent=\skip98
+\cftparanumwidth=\skip99
+\cftbeforesubparaskip=\skip100
+\cftsubparaindent=\skip101
+\cftsubparanumwidth=\skip102
+\cftbeforeloftitleskip=\skip103
+\cftafterloftitleskip=\skip104
+\cftbeforefigskip=\skip105
+\cftfigindent=\skip106
+\cftfignumwidth=\skip107
+\c@lofdepth=\count395
+\c@lotdepth=\count396
+\cftbeforelottitleskip=\skip108
+\cftafterlottitleskip=\skip109
+\cftbeforetabskip=\skip110
+\cfttabindent=\skip111
+\cfttabnumwidth=\skip112
 )
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/tcolorbox\tcbhooks.code.
 tex
@@ -1485,7 +1521,7 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.58 
+l.71 
      
 The package hyperref has already been loaded with options:
   []
@@ -1497,32 +1533,32 @@ to your \documentclass declaration may fix this.
 Try typing  <return>  to proceed.
 
 LaTeX Font Info:    Font shape `TU/bmfont/m/n' will be
-(Font)              scaled to size 10.39528pt on input line 176.
+(Font)              scaled to size 10.39528pt on input line 198.
 (BDOAA_Booklet.aux)
 \openout1 = `BDOAA_Booklet.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 176.
-LaTeX Font Info:    ... okay on input line 176.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 176.
-LaTeX Font Info:    ... okay on input line 176.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 176.
-LaTeX Font Info:    ... okay on input line 176.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 176.
-LaTeX Font Info:    ... okay on input line 176.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 176.
-LaTeX Font Info:    ... okay on input line 176.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 176.
-LaTeX Font Info:    ... okay on input line 176.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 176.
-LaTeX Font Info:    ... okay on input line 176.
-LaTeX Font Info:    Checking defaults for U/mathx/m/n on input line 176.
-LaTeX Font Info:    ... okay on input line 176.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 176.
-LaTeX Font Info:    ... okay on input line 176.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 176.
-LaTeX Font Info:    ... okay on input line 176.
-LaTeX Info: Command `\dddot' is already robust on input line 176.
-LaTeX Info: Command `\ddddot' is already robust on input line 176.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 198.
+LaTeX Font Info:    ... okay on input line 198.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 198.
+LaTeX Font Info:    ... okay on input line 198.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 198.
+LaTeX Font Info:    ... okay on input line 198.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 198.
+LaTeX Font Info:    ... okay on input line 198.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 198.
+LaTeX Font Info:    ... okay on input line 198.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 198.
+LaTeX Font Info:    ... okay on input line 198.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 198.
+LaTeX Font Info:    ... okay on input line 198.
+LaTeX Font Info:    Checking defaults for U/mathx/m/n on input line 198.
+LaTeX Font Info:    ... okay on input line 198.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 198.
+LaTeX Font Info:    ... okay on input line 198.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 198.
+LaTeX Font Info:    ... okay on input line 198.
+LaTeX Info: Command `\dddot' is already robust on input line 198.
+LaTeX Info: Command `\ddddot' is already robust on input line 198.
 
 Package fontspec Info: 
 (fontspec)             Adjusting the maths setup (use [no-math] to avoid
@@ -1530,58 +1566,58 @@ Package fontspec Info:
 
 \symlegacymaths=\mathgroup12
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 176.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 176.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 176.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 176.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 176.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 176.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 176.
-LaTeX Font Info:    Redeclaring math accent \check on input line 176.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 176.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 176.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 176.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 176.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 176.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 176.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 176.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 176.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 176.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 176.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 176.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 176.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 176.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 176.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 176.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 176.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 198.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 198.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 198.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 198.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 198.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 198.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 198.
+LaTeX Font Info:    Redeclaring math accent \check on input line 198.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 198.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 198.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 198.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 198.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 198.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 198.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 198.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 198.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 198.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 198.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 198.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 198.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 198.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 198.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 198.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 198.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 176.
+(Font)              `operators' in the math version `normal' on input line 198.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 176.
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 198.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 176.
+(Font)              `operators' in the math version `bold' on input line 198.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 176.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 198.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 176.
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 198.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 176.
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 198.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 176.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 198.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 176.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 198.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 176.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 198.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 176.
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 198.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 176.
+(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 198.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 176.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 198.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 176.
-Package hyperref Info: Link coloring OFF on input line 176.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 198.
+Package hyperref Info: Link coloring OFF on input line 198.
  (BDOAA_Booklet.out) (BDOAA_Booklet.out)
 \@outlinefile=\write4
 \openout4 = `BDOAA_Booklet.out'.
@@ -1594,7 +1630,7 @@ Package hyperref Info: Link coloring OFF on input line 176.
 * paper: custom
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
+* modes: twoside 
 * h-part:(L,W,R)=(48.36967pt, 332.89726pt, 39.83385pt)
 * v-part:(T,H,B)=(51.21495pt, 497.92325pt, 48.36967pt)
 * \paperwidth=421.10078pt
@@ -1602,13 +1638,13 @@ Package hyperref Info: Link coloring OFF on input line 176.
 * \textwidth=332.89726pt
 * \textheight=497.92325pt
 * \oddsidemargin=-23.90031pt
-* \evensidemargin=-23.90031pt
+* \evensidemargin=-32.43614pt
 * \topmargin=-70.97195pt
 * \headheight=30.0pt
 * \headsep=19.91692pt
 * \topskip=11.0pt
 * \footskip=22.76219pt
-* \marginparwidth=4.0pt
+* \marginparwidth=48.0pt
 * \marginparsep=10.0pt
 * \columnsep=10.0pt
 * \skip\footins=10.0pt plus 4.0pt minus 2.0pt
@@ -1616,8 +1652,8 @@ Package hyperref Info: Link coloring OFF on input line 176.
 * \voffset=0.0pt
 * \mag=1000
 * \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
+* \@twosidetrue
+* \@mparswitchtrue
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
@@ -1625,7 +1661,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package translations Info: no dictionary file `translations-basic-dictionary-be
-ngali.trsl' found. on input line 176.
+ngali.trsl' found. on input line 198.
 
 Package polyglossia Warning: Unknown Bengali numeral `Bengali'
 
@@ -1635,6 +1671,7 @@ Package polyglossia Warning: Unknown Bengali numeral `Bengali'
 
 Package polyglossia Warning: Unknown Bengali numeral `Bengali'
 
+Package hyperref Info: Option `pageanchor' set `false' on input line 204.
 
 ! Package polyglossia Error: The current main sans serif font,
 (polyglossia)                lmsans10-regular, does not contain the
@@ -1645,7 +1682,7 @@ Package polyglossia Warning: Unknown Bengali numeral `Bengali'
 Type <return> to continue.
  ...                                              
                                                   
-l.231 ^^I^^I^^I^^I\sffamily
+l.259 ^^I^^I^^I^^I\sffamily
                            \bfseries
 
 LaTeX does not know anything more about this error, sorry.
@@ -1655,7 +1692,7 @@ If that doesn't work, type X <return> to quit.
 
 
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 2
-33.
+61.
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -1669,7 +1706,7 @@ File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 Type <return> to continue.
  ...                                              
                                                   
-l.258 ^^I^^I^^I^^I^^I\sffamily
+l.286 ^^I^^I^^I^^I^^I\sffamily
                               \bfseries
 
 LaTeX does not know anything more about this error, sorry.
@@ -1690,7 +1727,7 @@ File: ./images/cover00.jpg Graphic file (type bmp)
 Type <return> to continue.
  ...                                              
                                                   
-l.314 ^^I^^I^^I^^I\sffamily
+l.342 ^^I^^I^^I^^I\sffamily
                            \bfseries
 
 LaTeX does not know anything more about this error, sorry.
@@ -1703,54 +1740,55 @@ If that doesn't work, type X <return> to quit.
 
 ]
 LaTeX Font Info:    Font shape `TU/bmfont/m/n' will be
-(Font)              scaled to size 20.8855pt on input line 339.
+(Font)              scaled to size 20.8855pt on input line 367.
 
 
 LaTeX Font Warning: Font shape `TU/bmfont/m/sc' undefined
-(Font)              using `TU/bmfont/m/n' instead on input line 341.
+(Font)              using `TU/bmfont/m/n' instead on input line 369.
 
 LaTeX Font Info:    Font shape `TU/bmfont/m/n' will be
-(Font)              scaled to size 16.1388pt on input line 346.
+(Font)              scaled to size 16.1388pt on input line 374.
 LaTeX Font Info:    Font shape `TU/bmfont/m/n' will be
-(Font)              scaled to size 14.24011pt on input line 352.
+(Font)              scaled to size 14.24011pt on input line 380.
 LaTeX Font Info:    Font shape `TU/bmfont/m/n' will be
-(Font)              scaled to size 11.39209pt on input line 364.
+(Font)              scaled to size 11.39209pt on input line 392.
 File: ./images/bdoaa_logo.png Graphic file (type bmp)
 <./images/bdoaa_logo.png>
-[1]
+[2]
 LaTeX Font Info:    Font shape `TU/bmfont/m/n' will be
-(Font)              scaled to size 9.49341pt on input line 390.
+(Font)              scaled to size 9.49341pt on input line 418.
 LaTeX Font Info:    Font shape `TU/bmfont/b/n' will be
-(Font)              scaled to size 9.49341pt on input line 392.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 414
+(Font)              scaled to size 9.49341pt on input line 420.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 442
 .
  (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 414
+LaTeX Font Info:    Trying to load font information for U+msb on input line 442
 .
 
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `TU/bmfont/m/n' will be
-(Font)              scaled to size 6.64539pt on input line 414.
+(Font)              scaled to size 6.64539pt on input line 442.
 LaTeX Font Info:    Font shape `TU/bmfont/m/n' will be
-(Font)              scaled to size 8.54407pt on input line 424.
+(Font)              scaled to size 8.54407pt on input line 452.
 LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 
-425.
+453.
 
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmtt.fd
 File: ot1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [2
+) [3
 
 ]
 LaTeX Font Info:    Font shape `TU/bmfont/m/n' will be
-(Font)              scaled to size 13.6705pt on input line 442.
+(Font)              scaled to size 13.6705pt on input line 482.
 LaTeX Font Info:    Font shape `TU/bmfont/b/n' will be
-(Font)              scaled to size 13.6705pt on input line 442.
+(Font)              scaled to size 13.6705pt on input line 482.
 
-[3
+[1
+
 
 ] (BDOAA_Booklet.toc
 
@@ -1768,11 +1806,11 @@ LaTeX Font Info:    Font shape `TU/bmfont/b/n' will be
 \tf@toc=\write5
 \openout5 = `BDOAA_Booklet.toc'.
 
- [4
+ [2
 
 ]
-LaTeX Font Info:    Font shape `TU/bmfont/m/sc' will be
-(Font)              scaled to size 8.54407pt on input line 484.
+LaTeX Font Info:    Font shape `TU/bmfont/m/it' will be
+(Font)              scaled to size 9.49341pt on input line 524.
  [1
 
 ] [2
@@ -1782,6 +1820,12 @@ LaTeX Font Info:    Font shape `TU/bmfont/m/sc' will be
 ]
 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
+
+Package lastpage Warning: The \pageref{LastPage} link does not work
+(lastpage)                using hyperref with disabled option `pageanchor'.
+(lastpage)                Better enable `pageanchor' or use
+(lastpage)                \pageref*{LastPage} (not generating a link).
+
 (BDOAA_Booklet.aux)
  ***********
 LaTeX2e <2025-11-01>
@@ -1791,15 +1835,18 @@ L3 programming layer <2020/03/25>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
 Package rerunfilecheck Info: File `BDOAA_Booklet.out' has not changed.
 (rerunfilecheck)             Checksum: B6BCC22B62DF98682810F178E3B57378;519.
  ) 
 Here is how much of TeX's memory you used:
- 36660 strings out of 402807
- 790765 string characters out of 5445342
- 1246160 words of memory out of 5000000
- 65011 multiletter control sequences out of 15000+600000
- 687101 words of font info for 137 fonts, out of 8000000 for 9000
+ 37003 strings out of 402807
+ 796026 string characters out of 5445342
+ 1255534 words of memory out of 5000000
+ 65337 multiletter control sequences out of 15000+600000
+ 692668 words of font info for 162 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  102i,12n,129p,552b,930s stack positions out of 10000i,1000n,20000p,200000b,200000s
 

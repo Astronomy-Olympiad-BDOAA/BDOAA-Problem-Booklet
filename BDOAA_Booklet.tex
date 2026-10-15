@@ -1,6 +1,6 @@
 
 
-\documentclass[11pt,a5paper,twoside]{article}
+\documentclass[10pt,a5paper,twoside]{article}
 
 % ==========================================
 % 1. MATHEMATICS AND LANGUAGE
@@ -15,6 +15,8 @@ banglattfont=Siyam Rupali
 
 \usepackage{fontspec}
 \usepackage{polyglossia}
+
+
 
 % ==========================================
 % 2. PACKAGES
@@ -67,7 +69,16 @@ footskip=8mm
 \setlength{\cftbeforesubsecskip}{1pt}
 \setlength{\cftsecnumwidth}{2.0em}
 
-\usepackage[hidelinks]{hyperref}
+% ==========================================
+% GLOBAL LIST SPACING
+% ==========================================
+
+\setlist{
+	itemsep=0em
+}
+
+\newcommand{\prr}{\\[-0.9\baselineskip]}
+%\usepackage[hidelinks]{hyperref}
 
 % ==========================================
 % 3. BOOKLET INFORMATION
@@ -190,6 +201,68 @@ footskip=8mm
 	\renewcommand{\headrulewidth}{0pt}
 	\renewcommand{\footrulewidth}{0pt}
 }
+
+
+
+
+
+
+
+% ==========================================
+% 9. PROBLEM HEADING AND NUMBERING
+% ==========================================
+
+% Problem counter:
+% 1.1, 1.2, ..., 2.1, 2.2, ...
+\newcounter{problem}[section]
+
+\renewcommand{\theproblem}{%
+	\thesection.\arabic{problem}%
+}
+
+% Problem source colour
+\definecolor{problemsource}{HTML}{777777}
+
+\newcommand{\pr}[3]{%
+	\par\addvspace{1.2em}%
+	\refstepcounter{problem}%
+	\phantomsection%
+	\addcontentsline{toc}{subsection}{%
+		\protect\numberline{}%
+		\theproblem
+	}%
+	\noindent
+	\begin{minipage}[c]{0.65\linewidth}
+		\raggedright
+		\bfseries
+		\theproblem\enspace #1
+	\end{minipage}%
+	\hfill
+	\begin{minipage}[c]{0.34\linewidth}
+		\raggedleft
+		\normalfont\small
+		\color{problemsource}%
+		\textsc{BDOAA/#2/#3}%
+	\end{minipage}%
+	\par\nobreak
+	\vspace{-1.3em}%
+	\noindent\rule{\linewidth}{0.4pt}%
+	\par\nobreak
+	\vspace{0.5em}%
+}
+
+% ==========================================
+% 10. PROBLEM MARKS
+% ==========================================
+
+% Usage: \m{4} produces (4pt)
+% Right-aligned within the text area.
+
+\newcommand{\m}[1]{%
+	\unskip\nobreak\hfill
+	\mbox{\normalfont(#1pt)}%
+}
+
 
 % ==========================================
 % DOCUMENT BEGINS
@@ -525,7 +598,112 @@ educators, and astronomy enthusiasts.
 \pagestyle{bdoaa}
 
 
-\section{Positional Astronomy}
+\section{Positional Astronomy -- স্থানাংক জ্যোতির্বিজ্ঞান}
+
+
+\pr{Abir's Observation}{R}{2018}
+
+আবির জুন মাসের ২২ তারিখে আকাশ পর্যবেক্ষণ করছিল। বিকেলে কোন এক সময় সে দেখে সূর্যের কারণে তার নিজের ছায়ার দৈর্ঘ্য $0.405~\mathrm{meter}$ যেখানে তার উচ্চতা $1.5~\mathrm{meter}$।\prr
+
+আবার সূর্যাস্তের সময় আবির লক্ষ্য করল যে সূর্যাস্তের সময় শুক্রগ্রহের উন্নতি কোণ হল  $a_\Venus=+19.36^\circ$ (মানে একেবারে মাটি থেকে বা দিগন্ত থেকে শুক্রগ্রহ $19.36$ ডিগ্রি উপরে আছে)।
+
+\begin{enumerate}[a.]
+	\item বিকেলের ঐ সময় সূর্যের উন্নতি কোণ কত ছিল? \m{2}
+	
+	\item সে সূর্যাস্তের কতক্ষণ পর শুক্রগ্রহকে অস্ত যেতে দেখবে? \m{2}
+	
+	\item আবির যে স্থান থেকে পর্যবেক্ষণ করছিল সেখানকার অক্ষাংশ কত? \m{3}
+\end{enumerate}
+
+
+\pr{Daylight}{R}{2018}
+
+নিচে প্রদত্ত গ্রাফ টি $0^\circ$, $30^\circ$ N, $50^\circ$ N এবং $60^\circ$ N এই 8 টি অক্ষাংশে সারা বছরের প্রতিটা দিন কত ঘণ্টা করে দিনের আলো থাকে সেটা দেখানো হচ্ছে-
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\linewidth]{bdoaa18_r_moon}
+\end{figure}  
+
+\begin{enumerate}[a.]
+	\item $30^\circ$ N অক্ষাংশে ১ জানুয়ারি দিনে কতক্ষণ সূর্যের আলো পাওয়া যাবে? \m{2}
+	
+	\item জুনের ২১ তারিখে গ্রাফে দেখানো কোন অক্ষাংশে সূর্যোদয় আগে হবে? \m{2}
+	
+	\item ২০শে মার্চ এবং ২২শে সেপ্টেম্বর তারিখে কেন ৪ টি latitude এই দিনে সমান সময় সূর্যের আলো পাওয়া যাবে কেন? \m{3}
+\end{enumerate}
+
+
+\pr{Visibility of Bangabandhu Satellite 1}{R}{2018}
+
+১২ মে বাংলাদেশের প্রথম ভূস্থির উপগ্রহ উৎক্ষেপিত হয়। ভূস্থির উপগ্রহ থেকে পৃথিবীকে দেখলে পৃথিবীর পৃষ্ঠের একটি নির্দিষ্ট ভাগই দেখা যায় এবং পৃথিবী থেকেও একটি নির্দিষ্ট অক্ষাংশ পর্যন্ত মানুষ উপগ্রহটিকে দেখতে পারে।
+
+\begin{enumerate}[a.]
+	\item ভূস্থির উপগ্রহ পৃথিবী থেকে কত উচ্চতায় অবস্থিত? \m{3}
+	
+	\item ভূস্থির উপগ্রহ থেকে একটি নির্দিষ্ট মুহূর্তে পৃথিবীর শতকরা কত অংশ দেখা যায়? \m{3}
+	
+	\item সর্বোচ্চ কত অক্ষাংশের মানুষ একে পর্যবেক্ষণ করতে পারবে? (ছবি এঁকে ব্যাখ্যা কর) \m{3}
+	
+	\item বঙ্গবন্ধু-১ স্যাটেলাইট ঠিক ইন্দোনেশিয়ার মাথার উপরে অবস্থিত। অর্থাৎ, এটি সরাসরি বাংলাদেশের উপর নয়। ইন্দোনেশিয়ার দ্রাঘিমা যদি $110^\circ$ পূর্ব হয়, তাহলে বাংলাদেশ থেকে কত ডিগ্রি কোণে সর্বোচ্চ ভালো পাওয়া যাবে? বাংলাদেশের দ্রাঘিমা $90^\circ$ পূর্ব। \m{4} 
+\end{enumerate}
+
+
+\pr{দিনের বেলায় আকাশে চাঁদ!}{R}{2019}
+
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.9\linewidth]{bdoaa19_r_moon}
+\end{figure}  
+\begin{enumerate}[a.]
+
+	\item চাঁদ থেকে পৃথিবীর দূরত্ব $d$ এবং পৃথিবীর ব্যাসার্ধ $r$ হলে চাঁদে অবস্থানকারী মহাকাশচারীর কাছে পৃথিবী পুরোপুরি উদয় হতে কতক্ষণ সময় লাগবে? \m{2}
+
+	
+	\item সাধারণত দিনের আকাশের পৃষ্ঠ ঔজ্জ্বল্য (Surface magnitude) থাকে \par $\mu_\leftmoon= 4~\mathrm{magnitude/arcsecond^2}$। যদি পূর্ণিমা চাঁদের আপাত উজ্জ্বলতা $m_\leftmoon=-12.6$ এবং কৌণিক ব্যাস $\theta_\leftmoon= 31''$ ($''=$ arcsecond) হয় তাহলে, দিনের আকাশে চাঁদ দেখা যাবে কিনা? \m{3}
+	
+	\item ধর একদিন বাংলাদেশ থেকে পূর্ণ সূর্যগ্রহণ দেখা গেল যখন সূর্য একদম আমাদের $(23.5^\circ~\mathrm{N})$ মাথার উপরে ছিল। চাঁদ বিষুবরেখা (equator) বরাবর আকাশে চলে। এই অবস্থায় চাঁদের ছায়ার আমাদের অক্ষাংশ বরাবর বেগ কত হতে হবে? \m{4}
+\end{enumerate}
+
+
+\pr{Eratosthenes' Experiment}{R}{2019}
+
+আজ থেকে অনেকদিন আগেই Eratosthenes নামে একজন ব্যক্তি পৃথিবীর ব্যাসার্ধ মাপতে সক্ষম হয়েছিলেন কিছু সামান্য পর্যবেক্ষণ এর সাহায্যে। তার পরীক্ষার ভিত্তি ছিল যে একটি নির্দিষ্ট দিনে, নির্দিষ্ট জায়গায় পর্যবেক্ষক এর ঠিক মাথার উপরে সূর্য থাকলে পর্যবেক্ষক ঐ সময় কোন লাঠির ছায়া থাকবে না। ধরো এই পরীক্ষাটি আমরা নির্দিষ্ট দিনে না করে ২ টা এক মিটার এর লাঠি ২ টি স্থানে লম্বালম্বি ভাবে স্থাপন করলাম। একটি ভূমিটি আরেকটি ভূমিটি থেকে $950~\mathrm{km}$ দক্ষিণে। মধ্যাহ্নে (যখন সূর্য স্থানীয় দ্রাঘিমাতে আসে) এই ২ স্থানে স্কেল ২ টির ছায়ার দৈর্ঘ্য পাওয়া গেল যথাক্রমে $0.795$ ও $0.577~\mathrm{m}$।
+
+\begin{enumerate}[a.]
+	\item লাঠি এর ছায়া দেখে পর্যবেক্ষক কীভাবে বুঝবে যে মধ্যাহ্ন (local noon) হয়েছে? \m{2}
+	
+	\item উপরের তথ্য গুলো দিয়ে পৃথিবীর ব্যাসার্ধ বের কর। \m{4}
+	
+	\item নিহাল $5895~\mathrm{m}$ উঁচু একটা পাহাড়ের নিচে সেই লাঠি এর ছায়ার দৈর্ঘ্য পেল $42~\mathrm{cm}$। তাহলে সে পাহাড়ের ছায়ার দৈর্ঘ্য কত পাবে? \m{4}
+\end{enumerate}
+(Hint: The height of the mount is not negligible as compared to radius of the earth. It is obviously assumed that base of Mountain is small enough for the shadow to fall on the earth itself.)
+
+
+\pr{Golden Gate Bridge!}{R}{2020}
+
+The Golden Gate Bridge, possibly the most photographed bridge in the World, spans the opening of San Francisco Bay. Completed in 1937, it boasts two towers of height $230~\mathrm{m}$ and these are $1,280~\mathrm{m}$ apart. Because of the curvature of the Earth, the towers are a little wider apart at the top than at the bottom (the diagram below is exaggerated, you may not observe such curvature with your eyes!).\prr 
+
+‘দি গোল্ডেন গেট ব্রিজ’- সম্ভবত বিশ্বের সবচেয়ে বেশিবার ছবিতে আবদ্ধ সেতু, সান ফ্রান্সিসকো বে-র প্রবেশমুখের দুইপ্রান্তকে সংযুক্ত করেছে। ১৯৩৭ সালে এর নির্মাণকাজ শেষ হয়। সেতুটির গর্ব এর দুটি টাওয়ার- যাদের উচ্চতা ২৩০ মিটার এবং এদের মধ্যবর্তী দূরত্ব ১,২৮০ মিটার। পৃথিবী পৃষ্ঠের বক্রতার কারণে, টাওয়ার দুটির ভিত্তির চেয়ে শীর্ষ দুটির দূরত্ব সামান্য বেশি (নিচের ছবিটা অতিরঞ্জিত, খালি চোখে এমন বক্রতা নাও দেখতে পারো!)
+
+\begin{figure}[H]
+	\centering
+	\includegraphics[width=0.95\linewidth]{bdoaa20_r_01}
+\end{figure}
+
+\begin{enumerate}[a.]
+	\item Calculate the difference between the towers at their tops compared to the difference between bases (denoted as $x$). \m{3}
+	
+	ভিত্তির তুলনায় শীর্ষ দুটির দূরত্ব $x$ কত বেশি, তা নির্ণয় করো। 
+	
+	\item How far is your horizon standing at top of Golden Gate Bridge? (suppose your own height is negligible for this scenario) \m{3}
+	
+	গোল্ডেন গেট ব্রিজের একেবারে শীর্ষে দাঁড়ালে, দিগন্ত তোমার কত দূরে দেখাবে? (ধরে নাও এই দৃশ্যকল্পে তোমার উচ্চতা একেবারেই নগণ্য!) 
+\end{enumerate}
+
+
+
 
 % Problems here
 

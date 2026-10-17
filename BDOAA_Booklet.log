@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.2) (preloaded format=xelatex 2026.4.16)  15 OCT 2026 06:59
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.2) (preloaded format=xelatex 2026.4.16)  17 OCT 2026 06:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1803,70 +1803,59 @@ LaTeX Font Info:    Font shape `TU/bmfont/b/n' will be
 
 
 ]
-Overfull \hbox (9.67918pt too wide) in paragraph at lines 576--581
-[]\OT1/lmr/m/n/10 The Bangladesh Olympiad on Astronomy and Astrophysics (BDOAA)
- Problem
+Underfull \hbox (badness 10000) in paragraph at lines 578--579
+
  []
 
 
-Overfull \hbox (4.56108pt too wide) in paragraph at lines 582--586
-[]\OT1/lmr/m/n/10 The booklet aims to preserve problems from previous editions 
-of the Olympiad
+Underfull \hbox (badness 10000) in paragraph at lines 580--581
+
  []
 
 [1
 
-]
+] [2]
 LaTeX Font Info:    Font shape `TU/bmfont/m/sc' will be
-(Font)              scaled to size 8.54407pt on input line 604.
+(Font)              scaled to size 8.54407pt on input line 601.
+LaTeX Font Info:    Font shape `TU/bmfont/m/it' will be
+(Font)              scaled to size 9.49341pt on input line 622.
+LaTeX Font Info:    Font shape `TU/bmfont/m/it' will be
+(Font)              scaled to size 8.54407pt on input line 624.
+ [3
 
-Underfull \hbox (badness 10000) in paragraph at lines 606--607
+] [4
+
+]
+File: ./images/bdoaa18_r_moonphase.png Graphic file (type bmp)
+<./images/bdoaa18_r_moonphase.png>
+ [5
+
+]
+File: ./images/bdoaa20_r_01.png Graphic file (type bmp)
+<./images/bdoaa20_r_01.png>
+
+Underfull \hbox (badness 10000) in paragraph at lines 696--697
+
+ []
+
+[6] [7]
+Underfull \hbox (badness 10000) in paragraph at lines 719--720
 
  []
 
 File: ./images/bdoaa18_r_moon.png Graphic file (type bmp)
 <./images/bdoaa18_r_moon.png>
-LaTeX Font Info:    Font shape `TU/bmfont/m/it' will be
-(Font)              scaled to size 8.54407pt on input line 634.
-[2
+[8
 
 ]
 File: ./images/bdoaa19_r_moon.png Graphic file (type bmp)
 <./images/bdoaa19_r_moon.png>
- [3]
-Underfull \hbox (badness 10000) in paragraph at lines 686--687
+ [9] [10] [11] [12
 
- []
+] [13
 
+]
 
-! LaTeX Error: \begin{document} ended by \end{latin}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.688 ‘দি গোল্ডেন গেট ব্রিজ’- 
-                              সম্ভবত বিশ্বের সবচেয়ে বেশিবার ছবিতে আবদ্ধ সেতু...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-! Extra \endgroup.
-\end  ...end#1\endcsname \@checkend {#1}\endgroup 
-                                                  \UseHook {env/#1/after}\if...
-l.688 ‘দি গোল্ডেন গেট ব্রিজ’- 
-                              সম্ভবত বিশ্বের সবচেয়ে বেশিবার ছবিতে আবদ্ধ সেতু...
-Things are pretty mixed up, but I think the worst is over.
-
-[4]
-File: ./images/bdoaa20_r_01.png Graphic file (type bmp)
-<./images/bdoaa20_r_01.png>
- [5] [6
-
-] [7
-
-] 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
 
 Package lastpage Warning: The \pageref{LastPage} link does not work
@@ -1884,15 +1873,15 @@ L3 programming layer <2020/03/25>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `BDOAA_Booklet.out' has not changed.
-(rerunfilecheck)             Checksum: D76B4A74B9B3449AE2936F947A21C52C;1220.
+(rerunfilecheck)             Checksum: B3DE8F26E4FA4F0D27656E4BD125F7FB;1831.
  ) 
 Here is how much of TeX's memory you used:
- 37069 strings out of 402807
- 797698 string characters out of 5445342
- 1263817 words of memory out of 5000000
- 65402 multiletter control sequences out of 15000+600000
- 694838 words of font info for 151 fonts, out of 8000000 for 9000
+ 37098 strings out of 402807
+ 798568 string characters out of 5445342
+ 1261817 words of memory out of 5000000
+ 65429 multiletter control sequences out of 15000+600000
+ 699064 words of font info for 153 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 102i,12n,129p,628b,1067s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,12n,129p,910b,1069s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on BDOAA_Booklet.pdf (11 pages).
+Output written on BDOAA_Booklet.pdf (17 pages).

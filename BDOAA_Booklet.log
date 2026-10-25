@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.2) (preloaded format=xelatex 2026.4.16)  17 OCT 2026 06:23
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.2) (preloaded format=xelatex 2026.4.16)  25 OCT 2026 09:38
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1522,39 +1522,39 @@ See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.217 \newcounter{problem}
+l.218 \newcounter{problem}
                           [section]
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 LaTeX Font Info:    Font shape `TU/bmfont/m/n' will be
-(Font)              scaled to size 9.49341pt on input line 271.
+(Font)              scaled to size 9.49341pt on input line 272.
 (BDOAA_Booklet.aux)
 \openout1 = `BDOAA_Booklet.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 271.
-LaTeX Font Info:    ... okay on input line 271.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 271.
-LaTeX Font Info:    ... okay on input line 271.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 271.
-LaTeX Font Info:    ... okay on input line 271.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 271.
-LaTeX Font Info:    ... okay on input line 271.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 271.
-LaTeX Font Info:    ... okay on input line 271.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 271.
-LaTeX Font Info:    ... okay on input line 271.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 271.
-LaTeX Font Info:    ... okay on input line 271.
-LaTeX Font Info:    Checking defaults for U/mathx/m/n on input line 271.
-LaTeX Font Info:    ... okay on input line 271.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 271.
-LaTeX Font Info:    ... okay on input line 271.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 271.
-LaTeX Font Info:    ... okay on input line 271.
-LaTeX Info: Command `\dddot' is already robust on input line 271.
-LaTeX Info: Command `\ddddot' is already robust on input line 271.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 272.
+LaTeX Font Info:    ... okay on input line 272.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 272.
+LaTeX Font Info:    ... okay on input line 272.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 272.
+LaTeX Font Info:    ... okay on input line 272.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 272.
+LaTeX Font Info:    ... okay on input line 272.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 272.
+LaTeX Font Info:    ... okay on input line 272.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 272.
+LaTeX Font Info:    ... okay on input line 272.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 272.
+LaTeX Font Info:    ... okay on input line 272.
+LaTeX Font Info:    Checking defaults for U/mathx/m/n on input line 272.
+LaTeX Font Info:    ... okay on input line 272.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 272.
+LaTeX Font Info:    ... okay on input line 272.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 272.
+LaTeX Font Info:    ... okay on input line 272.
+LaTeX Info: Command `\dddot' is already robust on input line 272.
+LaTeX Info: Command `\ddddot' is already robust on input line 272.
 
 Package fontspec Info: 
 (fontspec)             Adjusting the maths setup (use [no-math] to avoid
@@ -1562,58 +1562,58 @@ Package fontspec Info:
 
 \symlegacymaths=\mathgroup12
 LaTeX Font Info:    Overwriting symbol font `legacymaths' in version `bold'
-(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 271.
-LaTeX Font Info:    Redeclaring math accent \acute on input line 271.
-LaTeX Font Info:    Redeclaring math accent \grave on input line 271.
-LaTeX Font Info:    Redeclaring math accent \ddot on input line 271.
-LaTeX Font Info:    Redeclaring math accent \tilde on input line 271.
-LaTeX Font Info:    Redeclaring math accent \bar on input line 271.
-LaTeX Font Info:    Redeclaring math accent \breve on input line 271.
-LaTeX Font Info:    Redeclaring math accent \check on input line 271.
-LaTeX Font Info:    Redeclaring math accent \hat on input line 271.
-LaTeX Font Info:    Redeclaring math accent \dot on input line 271.
-LaTeX Font Info:    Redeclaring math accent \mathring on input line 271.
-LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 271.
-LaTeX Font Info:    Redeclaring math symbol \Delta on input line 271.
-LaTeX Font Info:    Redeclaring math symbol \Theta on input line 271.
-LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 271.
-LaTeX Font Info:    Redeclaring math symbol \Xi on input line 271.
-LaTeX Font Info:    Redeclaring math symbol \Pi on input line 271.
-LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 271.
-LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 271.
-LaTeX Font Info:    Redeclaring math symbol \Phi on input line 271.
-LaTeX Font Info:    Redeclaring math symbol \Psi on input line 271.
-LaTeX Font Info:    Redeclaring math symbol \Omega on input line 271.
-LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 271.
-LaTeX Font Info:    Redeclaring symbol font `operators' on input line 271.
+(Font)                  OT1/cmr/m/n --> OT1/cmr/bx/n on input line 272.
+LaTeX Font Info:    Redeclaring math accent \acute on input line 272.
+LaTeX Font Info:    Redeclaring math accent \grave on input line 272.
+LaTeX Font Info:    Redeclaring math accent \ddot on input line 272.
+LaTeX Font Info:    Redeclaring math accent \tilde on input line 272.
+LaTeX Font Info:    Redeclaring math accent \bar on input line 272.
+LaTeX Font Info:    Redeclaring math accent \breve on input line 272.
+LaTeX Font Info:    Redeclaring math accent \check on input line 272.
+LaTeX Font Info:    Redeclaring math accent \hat on input line 272.
+LaTeX Font Info:    Redeclaring math accent \dot on input line 272.
+LaTeX Font Info:    Redeclaring math accent \mathring on input line 272.
+LaTeX Font Info:    Redeclaring math symbol \Gamma on input line 272.
+LaTeX Font Info:    Redeclaring math symbol \Delta on input line 272.
+LaTeX Font Info:    Redeclaring math symbol \Theta on input line 272.
+LaTeX Font Info:    Redeclaring math symbol \Lambda on input line 272.
+LaTeX Font Info:    Redeclaring math symbol \Xi on input line 272.
+LaTeX Font Info:    Redeclaring math symbol \Pi on input line 272.
+LaTeX Font Info:    Redeclaring math symbol \Sigma on input line 272.
+LaTeX Font Info:    Redeclaring math symbol \Upsilon on input line 272.
+LaTeX Font Info:    Redeclaring math symbol \Phi on input line 272.
+LaTeX Font Info:    Redeclaring math symbol \Psi on input line 272.
+LaTeX Font Info:    Redeclaring math symbol \Omega on input line 272.
+LaTeX Font Info:    Redeclaring math symbol \mathdollar on input line 272.
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 272.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `normal' on input line 271.
+(Font)              `operators' in the math version `normal' on input line 272.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 271.
+(Font)                  OT1/cmr/m/n --> TU/lmr/m/n on input line 272.
 LaTeX Font Info:    Encoding `OT1' has changed to `TU' for symbol font
-(Font)              `operators' in the math version `bold' on input line 271.
+(Font)              `operators' in the math version `bold' on input line 272.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 271.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/m/n on input line 272.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 271.
+(Font)                  TU/lmr/m/n --> TU/lmr/m/n on input line 272.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 271.
+(Font)                  OT1/cmr/m/it --> TU/lmr/m/it on input line 272.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 271.
+(Font)                  OT1/cmr/bx/n --> TU/lmr/b/n on input line 272.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 271.
+(Font)                  OT1/cmss/m/n --> TU/lmss/m/n on input line 272.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 271.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/m/n on input line 272.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 271.
+(Font)                  TU/lmr/m/n --> TU/lmr/b/n on input line 272.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 271.
+(Font)                  OT1/cmr/bx/it --> TU/lmr/b/it on input line 272.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 271.
+(Font)                  OT1/cmss/bx/n --> TU/lmss/b/n on input line 272.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 271.
-Package hyperref Info: Link coloring OFF on input line 271.
+(Font)                  OT1/cmtt/m/n --> TU/lmtt/b/n on input line 272.
+Package hyperref Info: Link coloring OFF on input line 272.
  (BDOAA_Booklet.out) (BDOAA_Booklet.out)
 \@outlinefile=\write4
 \openout4 = `BDOAA_Booklet.out'.
@@ -1657,7 +1657,7 @@ Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
 Package translations Info: no dictionary file `translations-basic-dictionary-be
-ngali.trsl' found. on input line 271.
+ngali.trsl' found. on input line 272.
 
 Package polyglossia Warning: Unknown Bengali numeral `Bengali'
 
@@ -1667,7 +1667,7 @@ Package polyglossia Warning: Unknown Bengali numeral `Bengali'
 
 Package polyglossia Warning: Unknown Bengali numeral `Bengali'
 
-Package hyperref Info: Option `pageanchor' set `false' on input line 277.
+Package hyperref Info: Option `pageanchor' set `false' on input line 278.
 
 ! Package polyglossia Error: The current main sans serif font,
 (polyglossia)                lmsans10-regular, does not contain the
@@ -1678,7 +1678,7 @@ Package hyperref Info: Option `pageanchor' set `false' on input line 277.
 Type <return> to continue.
  ...                                              
                                                   
-l.332 ^^I^^I^^I^^I\sffamily
+l.333 ^^I^^I^^I^^I\sffamily
                            \bfseries
 
 LaTeX does not know anything more about this error, sorry.
@@ -1688,7 +1688,7 @@ If that doesn't work, type X <return> to quit.
 
 
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 3
-34.
+35.
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -1702,7 +1702,7 @@ File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 Type <return> to continue.
  ...                                              
                                                   
-l.359 ^^I^^I^^I^^I^^I\sffamily
+l.360 ^^I^^I^^I^^I^^I\sffamily
                               \bfseries
 
 LaTeX does not know anything more about this error, sorry.
@@ -1723,7 +1723,7 @@ File: ./images/cover00.jpg Graphic file (type bmp)
 Type <return> to continue.
  ...                                              
                                                   
-l.415 ^^I^^I^^I^^I\sffamily
+l.416 ^^I^^I^^I^^I\sffamily
                            \bfseries
 
 LaTeX does not know anything more about this error, sorry.
@@ -1736,42 +1736,42 @@ If that doesn't work, type X <return> to quit.
 
 ]
 LaTeX Font Info:    Font shape `TU/bmfont/m/n' will be
-(Font)              scaled to size 20.8855pt on input line 440.
+(Font)              scaled to size 20.8855pt on input line 441.
 
 
 LaTeX Font Warning: Font shape `TU/bmfont/m/sc' undefined
-(Font)              using `TU/bmfont/m/n' instead on input line 442.
+(Font)              using `TU/bmfont/m/n' instead on input line 443.
 
 LaTeX Font Info:    Font shape `TU/bmfont/m/n' will be
-(Font)              scaled to size 16.1388pt on input line 447.
+(Font)              scaled to size 16.1388pt on input line 448.
 LaTeX Font Info:    Font shape `TU/bmfont/m/n' will be
-(Font)              scaled to size 14.24011pt on input line 453.
+(Font)              scaled to size 14.24011pt on input line 454.
 LaTeX Font Info:    Font shape `TU/bmfont/m/n' will be
-(Font)              scaled to size 11.39209pt on input line 465.
+(Font)              scaled to size 11.39209pt on input line 466.
 File: ./images/bdoaa_logo.png Graphic file (type bmp)
 <./images/bdoaa_logo.png>
 [2]
 LaTeX Font Info:    Font shape `TU/bmfont/m/n' will be
-(Font)              scaled to size 8.54407pt on input line 491.
+(Font)              scaled to size 8.54407pt on input line 492.
 LaTeX Font Info:    Font shape `TU/bmfont/b/n' will be
-(Font)              scaled to size 8.54407pt on input line 493.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 515
+(Font)              scaled to size 8.54407pt on input line 494.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 516
 .
  (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 515
+LaTeX Font Info:    Trying to load font information for U+msb on input line 516
 .
 
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `TU/bmfont/m/n' will be
-(Font)              scaled to size 5.69604pt on input line 515.
+(Font)              scaled to size 5.69604pt on input line 516.
 LaTeX Font Info:    Font shape `TU/bmfont/m/n' will be
-(Font)              scaled to size 7.59473pt on input line 525.
+(Font)              scaled to size 7.59473pt on input line 526.
 LaTeX Font Info:    Trying to load font information for OT1+lmtt on input line 
-526.
+527.
 
 (C:\Users\ASUS\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmtt.fd
 File: ot1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -1779,9 +1779,9 @@ File: ot1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 
 ]
 LaTeX Font Info:    Font shape `TU/bmfont/m/n' will be
-(Font)              scaled to size 13.6705pt on input line 551.
+(Font)              scaled to size 13.6705pt on input line 552.
 LaTeX Font Info:    Font shape `TU/bmfont/b/n' will be
-(Font)              scaled to size 13.6705pt on input line 551.
+(Font)              scaled to size 13.6705pt on input line 552.
 
 (BDOAA_Booklet.toc
 
@@ -1795,67 +1795,287 @@ Package polyglossia Warning: Unknown Bengali numeral `Bengali'
 
 LaTeX Font Info:    Font shape `TU/bmfont/b/n' will be
 (Font)              scaled to size 9.49341pt on input line 2.
-)
-\tf@toc=\write5
-\openout5 = `BDOAA_Booklet.toc'.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [1
 
 
-]
-Underfull \hbox (badness 10000) in paragraph at lines 578--579
+])
+\tf@toc=\write5
+\openout5 = `BDOAA_Booklet.toc'.
 
+
+[2]
+Overfull \hbox (3.57384pt too wide) in paragraph at lines 581--582
+\OT1/lmr/m/n/10 of young students are discovering astronomy through education, 
+competitions,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 580--581
+Overfull \hbox (15.54094pt too wide) in paragraph at lines 583--584
+\OT1/lmr/m/n/10 challenge students to approach unfamiliar problems using fundam
+ental principles
+ []
 
+
+Overfull \hbox (5.34808pt too wide) in paragraph at lines 583--584
+\OT1/lmr/m/n/10 to explore astronomy and astrophysics through challenging scien
+tific problems. 
+ []
+
+
+Overfull \hbox (0.85165pt too wide) in paragraph at lines 585--586
+\OT1/lmr/m/n/10 and the interpretation of observational data. It is inherently 
+interdisciplinary,
+ []
+
+
+Overfull \hbox (24.97035pt too wide) in paragraph at lines 585--586
+\OT1/lmr/m/n/10 bringing together geometry, mathematics, statistics, physics, c
+hemistry, geography,
+ []
+
+
+Overfull \hbox (8.05684pt too wide) in paragraph at lines 585--586
+\OT1/lmr/m/n/10 preparing for an Astronomy Olympiad requires a broader perspect
+ive: students
  []
 
 [1
 
-] [2]
-LaTeX Font Info:    Font shape `TU/bmfont/m/sc' will be
-(Font)              scaled to size 8.54407pt on input line 601.
-LaTeX Font Info:    Font shape `TU/bmfont/m/it' will be
-(Font)              scaled to size 9.49341pt on input line 622.
-LaTeX Font Info:    Font shape `TU/bmfont/m/it' will be
-(Font)              scaled to size 8.54407pt on input line 624.
- [3
+]
+Overfull \hbox (7.04218pt too wide) in paragraph at lines 589--590
+[]\OT1/lmr/m/n/10 BDOAA's mission extends beyond preparing students for interna
+tional medals.
+ []
 
-] [4
+LaTeX Font Info:    Font shape `TU/bmfont/m/it' will be
+(Font)              scaled to size 9.49341pt on input line 591.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [2]
+Overfull \hbox (19.32611pt too wide) in paragraph at lines 593--594
+\OT1/lmr/m/n/10 geometrical intuition, sound physical reasoning, and familiarit
+y with astronomical
+ []
+
+
+Overfull \hbox (26.10838pt too wide) in paragraph at lines 595--596
+\OT1/lmr/m/n/10 Problems may require students to combine several concepts, inte
+rpret observational
+ []
+
+LaTeX Font Info:    Font shape `TU/bttfont/m/n' will be
+(Font)              scaled to size 8.00003pt on input line 599.
+
+Overfull \hbox (19.77405pt too wide) in paragraph at lines 601--602
+[]\OT1/lmr/m/n/10 Readers are encouraged to attempt the problems independently,
+ draw appropriate
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [3]
+[4]
+LaTeX Font Info:    Font shape `TU/bmfont/m/sc' will be
+(Font)              scaled to size 8.54407pt on input line 625.
+LaTeX Font Info:    Font shape `TU/bmfont/m/it' will be
+(Font)              scaled to size 8.54407pt on input line 646.
+ [5
+
+]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [6
 
 ]
 File: ./images/bdoaa18_r_moonphase.png Graphic file (type bmp)
 <./images/bdoaa18_r_moonphase.png>
- [5
 
-]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [7]
 File: ./images/bdoaa20_r_01.png Graphic file (type bmp)
 <./images/bdoaa20_r_01.png>
 
-Underfull \hbox (badness 10000) in paragraph at lines 696--697
+[8]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
+ [9]
+[10]
+File: ./images/bdoaa19_r_moon.png Graphic file (type bmp)
+<./images/bdoaa19_r_moon.png>
+ [11
+
+]
+Overfull \hbox (7.82256pt too wide) in paragraph at lines 838--839
+[]\OT1/lmr/m/n/10 The daytime sky typically has a surface brightness of $\OML/c
+mm/m/it/10 ^^V \OT1/cmr/m/n/10 = 4 []$\OT1/lmr/m/n/10 .
  []
 
-[6] [7]
-Underfull \hbox (badness 10000) in paragraph at lines 719--720
 
+Overfull \hbox (15.5828pt too wide) in paragraph at lines 840--841
+[]\TU/bmfont/m/n/10 সাধারণত দিনের আকাশের পৃষ্ঠ ঔজ্জ্বল্য \OT1/lmr/m/n/10 (Surfa
+ce brightness) \TU/bmfont/m/n/10 থাকে $\OML/cmm/m/it/10 ^^V \OT1/cmr/m/n/10 = 4
+ []$\TU/bmfont/m/n/10 ।
  []
 
 File: ./images/bdoaa18_r_moon.png Graphic file (type bmp)
 <./images/bdoaa18_r_moon.png>
-[8
+[12]
+Overfull \hbox (6.86147pt too wide) in paragraph at lines 888--889
+[]\OT1/lmr/m/n/10 On 12 May, Bangladesh launched its first geostationary satell
+ite, Bangabandhu
+ []
+
+
+Overfull \hbox (18.8958pt too wide) in paragraph at lines 898--899
+[]\OT1/lmr/m/n/10 What percentage of Earth's total surface area is visible from
+ a geostationary
+ []
+
+
+Overfull \hbox (3.81079pt too wide) in paragraph at lines 902--903
+[]\OT1/lmr/m/n/10 What is the maximum latitude from which the satellite can be 
+observed?
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [13]
+[14]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [15]
+[16]
+Overfull \hbox (6.09378pt too wide) in paragraph at lines 1050--1051
+[]\TU/bmfont/m/n/10 ত্রুটিপূর্ণ যন্ত্রে পর্যবেক্ষিত মান ব্যবহার করে \OT1/lmr/m/
+n/10 Globular Cluster-\TU/bmfont/m/n/10 টির পরম ঔজ্জ্বল্য \OT1/lmr/m/n/10 (Abso
+lute
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [17
 
 ]
-File: ./images/bdoaa19_r_moon.png Graphic file (type bmp)
-<./images/bdoaa19_r_moon.png>
- [9] [10] [11] [12
+Overfull \hbox (18.74568pt too wide) in paragraph at lines 1073--1074
+\OT1/lmr/m/n/10 Extinction) \TU/bmfont/m/n/10 উপেক্ষা করে পৃথিবী থেকে সুপারনোভা
+টির আপাত মান \OT1/lmr/m/n/10 (Apparent Magnitude)
+ []
 
-] [13
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [18]
+LaTeX Font Info:    Font shape `TU/bmfont/b/n' will be
+(Font)              scaled to size 7.59473pt on input line 1111.
+
+Overfull \hbox (5.09451pt too wide) in paragraph at lines 1119--1120
+[]\OT1/lmr/m/n/10 Calculate the star's apparent bolometric magnitude, absolute 
+bolometric
+ []
+
+
+Overfull \hbox (5.5564pt too wide) in paragraph at lines 1121--1122
+\TU/bmfont/m/n/10 লোমেট্রিক মান \OT1/lmr/m/n/10 (Absolute Bolometric Magnitude)
+ \TU/bmfont/m/n/10 এবং দূরত্বের পরমমান \OT1/lmr/m/n/10 (Distance
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [20]
+[21]
+Overfull \hbox (16.1421pt too wide) in paragraph at lines 1193--1194
+[]\OT1/lmr/m/n/10 Assuming diffraction-limited performance, calculate the minim
+um aperture
+ []
+
+[22]
+Overfull \hbox (1.59322pt too wide) in paragraph at lines 1214--1215
+[]\OT1/lmr/m/n/10 Calculate the luminosity of the star, defined as the total en
+ergy radiated
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [23
 
 ]
+! Undefined control sequence.
+l.1264 ...ার $666.28~\mathrm{nm}$-এ ফিরে আসে। \prr
+                                                  
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [24]
+[25]
+LaTeX Font Info:    Font shape `TU/bmfont/m/n' will be
+(Font)              scaled to size 6.64539pt on input line 1321.
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [26
+
+]
+LaTeX Font Info:    Font shape `TU/bmfont/b/n' will be
+(Font)              scaled to size 11.39209pt on input line 1389.
+
+Underfull \hbox (badness 1394) in paragraph at lines 1440--1441
+[][]\OT1/lmr/m/n/10 Two planets, X and Y, revolve
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [27]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [28]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [29]
+Overfull \hbox (3.91139pt too wide) in paragraph at lines 1504--1505
+\OT1/lmr/m/n/10 with a period of $\OT1/cmr/m/n/10 400$ \OT1/lmr/m/n/10 days. As
+suming conservation of angular momentum
+ []
+
+
+Overfull \hbox (3.74074pt too wide) in paragraph at lines 1510--1511
+\OT1/lmr/m/n/10 selected contracted cloud lies entirely within the habitable zo
+ne. Neglect
+ []
+
+[30]
+Overfull \hbox (5.84004pt too wide) in paragraph at lines 1557--1558
+[]\OT1/lmr/m/n/10 What fraction of Earth's total surface area is visible from a
+ geostationary
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [31]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [32]
+[33] 
 enddocument/afterlastpage (AED): lastpage setting LastPage.
 
 Package lastpage Warning: The \pageref{LastPage} link does not work
@@ -1873,15 +2093,15 @@ L3 programming layer <2020/03/25>
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
 Package rerunfilecheck Info: File `BDOAA_Booklet.out' has not changed.
-(rerunfilecheck)             Checksum: B3DE8F26E4FA4F0D27656E4BD125F7FB;1831.
+(rerunfilecheck)             Checksum: F2BD559C4886C4AFDDF493ABF0DDACC9;3774.
  ) 
 Here is how much of TeX's memory you used:
- 37098 strings out of 402807
- 798568 string characters out of 5445342
- 1261817 words of memory out of 5000000
- 65429 multiletter control sequences out of 15000+600000
- 699064 words of font info for 153 fonts, out of 8000000 for 9000
+ 37172 strings out of 402807
+ 800229 string characters out of 5445342
+ 1265899 words of memory out of 5000000
+ 65497 multiletter control sequences out of 15000+600000
+ 705297 words of font info for 160 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
- 102i,12n,129p,910b,1069s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 102i,13n,129p,1047b,1142s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
-Output written on BDOAA_Booklet.pdf (17 pages).
+Output written on BDOAA_Booklet.pdf (38 pages).

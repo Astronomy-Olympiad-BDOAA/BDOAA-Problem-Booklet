@@ -1,17 +1,40 @@
 \xpg@aux {numerals=Bengali, changecounternumbering=true}{bengali}
 \contentsline {section}{Introduction}{১}{section*.1}%
-\contentsline {section}{\numberline {১}Geometry of Astronomy \& Time }{৩}{section.1}%
-\contentsline {subsection}{\numberline {}১.১}{৩}{section*.2}%
-\contentsline {subsection}{\numberline {}১.২}{৪}{section*.3}%
-\contentsline {subsection}{\numberline {}১.৩}{৫}{section*.4}%
-\contentsline {subsection}{\numberline {}১.৪}{৫}{section*.5}%
-\contentsline {subsection}{\numberline {}১.৫}{৬}{section*.7}%
-\contentsline {section}{\numberline {২}Positional Astronomy -- স্থানাংক জ্যোতির্বিজ্ঞান}{৮}{section.2}%
-\contentsline {subsection}{\numberline {}২.১}{৮}{section*.9}%
-\contentsline {subsection}{\numberline {}২.২}{৮}{section*.10}%
-\contentsline {subsection}{\numberline {}২.৩}{৯}{section*.12}%
-\contentsline {subsection}{\numberline {}২.৪}{৯}{section*.13}%
-\contentsline {subsection}{\numberline {}২.৫}{১০}{section*.15}%
-\contentsline {subsection}{\numberline {}২.৬}{১১}{section*.16}%
-\contentsline {section}{\numberline {৩}Celestial Mechanics}{১২}{section.3}%
-\contentsline {section}{\numberline {৪}Stellar Astrophysics}{১৩}{section.4}%
+\contentsline {section}{\numberline {১}Geometry of Astronomy \& Time }{৫}{section.1}%
+\contentsline {subsection}{\numberline {}১.১}{৫}{section*.2}%
+\contentsline {subsection}{\numberline {}১.২}{৬}{section*.3}%
+\contentsline {subsection}{\numberline {}১.৩}{৬}{section*.4}%
+\contentsline {subsection}{\numberline {}১.৪}{৭}{section*.5}%
+\contentsline {subsection}{\numberline {}১.৫}{৮}{section*.6}%
+\contentsline {subsection}{\numberline {}১.৬}{৮}{section*.8}%
+\contentsline {subsection}{\numberline {}১.৭}{৯}{section*.9}%
+\contentsline {section}{\numberline {২}Positional Astronomy -- স্থানাংক জ্যোতির্বিজ্ঞান}{১১}{section.2}%
+\contentsline {subsection}{\numberline {}২.১}{১১}{section*.10}%
+\contentsline {subsection}{\numberline {}২.২}{১১}{section*.11}%
+\contentsline {subsection}{\numberline {}২.৩}{১২}{section*.13}%
+\contentsline {subsection}{\numberline {}২.৪}{১৩}{section*.15}%
+\contentsline {subsection}{\numberline {}২.৫}{১৪}{section*.16}%
+\contentsline {subsection}{\numberline {}২.৬}{১৪}{section*.17}%
+\contentsline {subsection}{\numberline {}২.৭}{১৫}{section*.18}%
+\contentsline {section}{\numberline {৩}Photometry and Observation}{১৭}{section.3}%
+\contentsline {subsection}{\numberline {}৩.১}{১৭}{section*.19}%
+\contentsline {subsection}{\numberline {}৩.২}{১৭}{section*.20}%
+\contentsline {subsection}{\numberline {}৩.৩}{১৮}{section*.21}%
+\contentsline {subsection}{\numberline {}৩.৪}{১৯}{section*.22}%
+\contentsline {subsection}{\numberline {}৩.৫}{২০}{section*.23}%
+\contentsline {subsection}{\numberline {}৩.৬}{২১}{section*.24}%
+\contentsline {section}{\numberline {৪}Stellar Astrophysics}{২৩}{section.4}%
+\contentsline {subsection}{\numberline {}৪.১}{২৩}{section*.25}%
+\contentsline {subsection}{\numberline {}৪.২}{২৩}{section*.26}%
+\contentsline {subsection}{\numberline {}৪.৩}{২৪}{section*.27}%
+\contentsline {subsection}{\numberline {}৪.৪}{২৫}{section*.28}%
+\contentsline {section}{\numberline {৫}Celestial Mechanics}{২৬}{section.5}%
+\contentsline {subsection}{\numberline {}৫.১}{২৬}{section*.29}%
+\contentsline {subsection}{\numberline {}৫.২}{২৭}{section*.30}%
+\contentsline {subsection}{\numberline {}৫.৩}{২৭}{section*.32}%
+\contentsline {subsection}{\numberline {}৫.৪}{২৮}{section*.33}%
+\contentsline {subsection}{\numberline {}৫.৫}{২৯}{section*.34}%
+\contentsline {subsection}{\numberline {}৫.৬}{২৯}{section*.35}%
+\contentsline {subsection}{\numberline {}৫.৭}{৩১}{section*.36}%
+\contentsline {subsection}{\numberline {}৫.৮}{৩১}{section*.37}%
+\contentsline {subsection}{\numberline {}৫.৯}{৩২}{section*.38}%

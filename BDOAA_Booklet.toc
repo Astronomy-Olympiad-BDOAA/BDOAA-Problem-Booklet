@@ -8,7 +8,7 @@
 \contentsline {subsection}{\numberline {}১.৫}{৮}{section*.6}%
 \contentsline {subsection}{\numberline {}১.৬}{৮}{section*.8}%
 \contentsline {subsection}{\numberline {}১.৭}{৯}{section*.9}%
-\contentsline {section}{\numberline {২}Positional Astronomy -- স্থানাংক জ্যোতির্বিজ্ঞান}{১১}{section.2}%
+\contentsline {section}{\numberline {২}Positional Astronomy}{১১}{section.2}%
 \contentsline {subsection}{\numberline {}২.১}{১১}{section*.10}%
 \contentsline {subsection}{\numberline {}২.২}{১১}{section*.11}%
 \contentsline {subsection}{\numberline {}২.৩}{১২}{section*.13}%

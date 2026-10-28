@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.2) (preloaded format=xelatex 2026.4.16)  25 OCT 2026 09:38
+This is XeTeX, Version 3.141592653-2.6-0.999998 (MiKTeX 26.2) (preloaded format=xelatex 2026.4.16)  28 OCT 2026 10:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1901,31 +1901,26 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 File: ./images/bdoaa20_r_01.png Graphic file (type bmp)
 <./images/bdoaa20_r_01.png>
 
-[8]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [8]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [9]
 [10]
+Overfull \hbox (4.52896pt too wide) in paragraph at lines 807--808
+[]\OT1/lmr/m/n/10 What was the altitude of the Sun, $\OML/cmm/m/it/10 a[]$ \OT1
+/lmr/m/n/10 at that time in the afternoon? [] 
+ []
+
 File: ./images/bdoaa19_r_moon.png Graphic file (type bmp)
 <./images/bdoaa19_r_moon.png>
- [11
+[11
 
 ]
-Overfull \hbox (7.82256pt too wide) in paragraph at lines 838--839
-[]\OT1/lmr/m/n/10 The daytime sky typically has a surface brightness of $\OML/c
-mm/m/it/10 ^^V \OT1/cmr/m/n/10 = 4 []$\OT1/lmr/m/n/10 .
- []
-
-
-Overfull \hbox (15.5828pt too wide) in paragraph at lines 840--841
-[]\TU/bmfont/m/n/10 সাধারণত দিনের আকাশের পৃষ্ঠ ঔজ্জ্বল্য \OT1/lmr/m/n/10 (Surfa
-ce brightness) \TU/bmfont/m/n/10 থাকে $\OML/cmm/m/it/10 ^^V \OT1/cmr/m/n/10 = 4
- []$\TU/bmfont/m/n/10 ।
- []
-
 File: ./images/bdoaa18_r_moon.png Graphic file (type bmp)
 <./images/bdoaa18_r_moon.png>
-[12]
+ [12]
 Overfull \hbox (6.86147pt too wide) in paragraph at lines 888--889
 []\OT1/lmr/m/n/10 On 12 May, Bangladesh launched its first geostationary satell
 ite, Bangabandhu
@@ -1952,10 +1947,9 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [15]
 [16]
-Overfull \hbox (6.09378pt too wide) in paragraph at lines 1050--1051
-[]\TU/bmfont/m/n/10 ত্রুটিপূর্ণ যন্ত্রে পর্যবেক্ষিত মান ব্যবহার করে \OT1/lmr/m/
-n/10 Globular Cluster-\TU/bmfont/m/n/10 টির পরম ঔজ্জ্বল্য \OT1/lmr/m/n/10 (Abso
-lute
+Overfull \hbox (8.81952pt too wide) in paragraph at lines 1044--1045
+[]\TU/bmfont/m/n/10 ত্রুটিপূর্ণ যন্ত্রে পর্যবেক্ষিত গ্লোবুলার ক্লাস্টারটির সমন্
+বিত আপাত ঔজ্জ্বল্য \OT1/lmr/m/n/10 (Combined Apparent
  []
 
 
@@ -1964,27 +1958,15 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [17
 
 ]
-Overfull \hbox (18.74568pt too wide) in paragraph at lines 1073--1074
-\OT1/lmr/m/n/10 Extinction) \TU/bmfont/m/n/10 উপেক্ষা করে পৃথিবী থেকে সুপারনোভা
-টির আপাত মান \OT1/lmr/m/n/10 (Apparent Magnitude)
- []
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [18]
 LaTeX Font Info:    Font shape `TU/bmfont/b/n' will be
-(Font)              scaled to size 7.59473pt on input line 1111.
+(Font)              scaled to size 7.59473pt on input line 1109.
 
-Overfull \hbox (5.09451pt too wide) in paragraph at lines 1119--1120
+Overfull \hbox (5.09451pt too wide) in paragraph at lines 1117--1118
 []\OT1/lmr/m/n/10 Calculate the star's apparent bolometric magnitude, absolute 
 bolometric
- []
-
-
-Overfull \hbox (5.5564pt too wide) in paragraph at lines 1121--1122
-\TU/bmfont/m/n/10 লোমেট্রিক মান \OT1/lmr/m/n/10 (Absolute Bolometric Magnitude)
- \TU/bmfont/m/n/10 এবং দূরত্বের পরমমান \OT1/lmr/m/n/10 (Distance
  []
 
 
@@ -1995,13 +1977,13 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [20]
 [21]
-Overfull \hbox (16.1421pt too wide) in paragraph at lines 1193--1194
+Overfull \hbox (16.1421pt too wide) in paragraph at lines 1191--1192
 []\OT1/lmr/m/n/10 Assuming diffraction-limited performance, calculate the minim
 um aperture
  []
 
 [22]
-Overfull \hbox (1.59322pt too wide) in paragraph at lines 1214--1215
+Overfull \hbox (1.59322pt too wide) in paragraph at lines 1212--1213
 []\OT1/lmr/m/n/10 Calculate the luminosity of the star, defined as the total en
 ergy radiated
  []
@@ -2012,22 +1994,12 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
  [23
 
 ]
-! Undefined control sequence.
-l.1264 ...ার $666.28~\mathrm{nm}$-এ ফিরে আসে। \prr
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [24]
 [25]
 LaTeX Font Info:    Font shape `TU/bmfont/m/n' will be
-(Font)              scaled to size 6.64539pt on input line 1321.
+(Font)              scaled to size 6.64539pt on input line 1319.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -2035,9 +2007,9 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 
 ]
 LaTeX Font Info:    Font shape `TU/bmfont/b/n' will be
-(Font)              scaled to size 11.39209pt on input line 1389.
+(Font)              scaled to size 11.39209pt on input line 1387.
 
-Underfull \hbox (badness 1394) in paragraph at lines 1440--1441
+Underfull \hbox (badness 1394) in paragraph at lines 1438--1439
 [][]\OT1/lmr/m/n/10 Two planets, X and Y, revolve
  []
 
@@ -2051,19 +2023,19 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
  [29]
-Overfull \hbox (3.91139pt too wide) in paragraph at lines 1504--1505
+Overfull \hbox (3.91139pt too wide) in paragraph at lines 1502--1503
 \OT1/lmr/m/n/10 with a period of $\OT1/cmr/m/n/10 400$ \OT1/lmr/m/n/10 days. As
 suming conservation of angular momentum
  []
 
 
-Overfull \hbox (3.74074pt too wide) in paragraph at lines 1510--1511
+Overfull \hbox (3.74074pt too wide) in paragraph at lines 1508--1509
 \OT1/lmr/m/n/10 selected contracted cloud lies entirely within the habitable zo
 ne. Neglect
  []
 
 [30]
-Overfull \hbox (5.84004pt too wide) in paragraph at lines 1557--1558
+Overfull \hbox (5.84004pt too wide) in paragraph at lines 1555--1556
 []\OT1/lmr/m/n/10 What fraction of Earth's total surface area is visible from a
  geostationary
  []
@@ -2092,8 +2064,14 @@ L3 programming layer <2020/03/25>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package rerunfilecheck Info: File `BDOAA_Booklet.out' has not changed.
-(rerunfilecheck)             Checksum: F2BD559C4886C4AFDDF493ABF0DDACC9;3774.
+
+Package rerunfilecheck Warning: File `BDOAA_Booklet.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `BDOAA_Booklet.out':
+(rerunfilecheck)             Before: F2BD559C4886C4AFDDF493ABF0DDACC9;3774
+(rerunfilecheck)             After:  ACD276CDF19DCBA87D5A7EC03FC51619;3558.
  ) 
 Here is how much of TeX's memory you used:
  37172 strings out of 402807
